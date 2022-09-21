@@ -12,11 +12,11 @@
 
         <div class="text-end">
           <% if (!isAuthenticate){ %>
-            <a  href="../employee/sign-in" class="btn btn-outline-light me-2">Login</a>
-            <a  href="../employee/sign-up" class="btn btn-warning">Sign-up</a>
+            <a  href="../employee/sign-in" class="btn btn-primary me-2">Login</a>
+            <a  href="../employee/sign-up" class="btn btn-primary">Sign-up</a>
           <% } else { %> 
             <span class="me-2"> <%= email %> </span>
-            <a  href="../employee/log-out" class="btn btn-warning">Log Out</a>
+            <a  href="../employee/log-out" class="btn btn-danger">Log Out</a>
           <% } %>
         </div>
       </div>
